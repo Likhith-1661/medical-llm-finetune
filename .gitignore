@@ -1,0 +1,148 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===========================
+# Virtual Environments
+# ===========================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+conda-env/
+
+# ===========================
+# Jupyter Notebooks
+# ===========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+# Uncomment to ignore all notebook outputs (keeps diffs clean):
+# *.ipynb
+
+# ===========================
+# Model Weights & Checkpoints
+# (Never commit these — they are huge)
+# ===========================
+*.pt
+*.pth
+*.bin
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.gguf
+*.ggml
+*.q4_0
+*.q8_0
+checkpoints/
+saved_models/
+model_weights/
+fine_tuned_model/
+adapter_weights/
+lora_weights/
+
+# ===========================
+# Dataset & Data Files
+# (Download at runtime, not stored in git)
+# ===========================
+data/
+*.csv
+*.jsonl
+*.json
+*.parquet
+*.arrow
+*.feather
+*.pkl
+*.pickle
+
+# Keep result files we explicitly want tracked
+!baseline_results.json
+
+# ===========================
+# HuggingFace Cache
+# ===========================
+.cache/
+huggingface/
+~/.cache/huggingface/
+
+# ===========================
+# Experiment Tracking
+# ===========================
+wandb/
+mlruns/
+runs/
+lightning_logs/
+outputs/
+*.log
+
+# ===========================
+# Generated Charts & Plots
+# (Reproducible — no need to commit)
+# ===========================
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# ===========================
+# Secrets & API Keys
+# (CRITICAL — never commit these)
+# ===========================
+.env
+.env.*
+secrets.yaml
+secrets.json
+config/secrets/
+*.pem
+*.key
+
+# ===========================
+# OS & Editor Files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===========================
+# Misc
+# ===========================
+*.tmp
+*.bak
+*.swp
+*~
