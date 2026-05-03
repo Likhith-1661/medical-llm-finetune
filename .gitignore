@@ -74,6 +74,9 @@ lora_weights/
 # (Download at runtime, not stored in git)
 # ===========================
 data/
+# But DO track Python source files inside src/data/
+!src/data/
+!src/data/**
 *.csv
 *.jsonl
 *.json
